@@ -24,9 +24,10 @@ const options = {
 }
 // Recursively traverse result and swap in data from options object
 
-const newXML = convert.json2xml(result, convOptions)
+const newXML = convert.json2xml(JSON.stringify(result), convOptions)
 console.log(newXML)
 
 // Create tmp.template-demo.odt
 // Swap out the content of content.xml with newXML
 // Utilize libreOffice Command line Tool to export PDF
+// Delete tmp.template-demo.odt
