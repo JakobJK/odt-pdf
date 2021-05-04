@@ -1,0 +1,24 @@
+{
+  "name": "odt-pdf",
+  "version": "1.0.0",
+  "description": "A script enabling the ability to convert ODT files to PDFs with templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakobJK/odt-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakobJK/odt-pdf/issues"
+  },
+  "homepage": "https://github.com/JakobJK/odt-pdf#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "xml-js": "^1.6.11"
+  }
+}

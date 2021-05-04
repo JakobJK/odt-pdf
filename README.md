@@ -1,2 +1,5 @@
 # odt-pdf
-A script enabling the ability to convert ODT files to PDFs with templating
+
+Convert ODT templates to PDFs
+
+Passing in an Options object should allow you to update the content of the template, and export an OBJ
